@@ -1,2 +1,34 @@
-# AERS-Simple-Downloads
-Download AERS Simple for Windows and Mac. Easy tournament brackets and event management.
+# AERS Simple downloads
+
+Run your tournament with brackets, table view, puller management, injuries, byes,
+and Undo last match.
+
+## Install Simple 1.12
+
+Open the [latest release](https://github.com/Coreyflash/AERS-Simple-Downloads/releases/latest)
+and choose an installer under Assets:
+
+- Windows: AERS-Simple-1.12-Setup.exe. Run setup, then use the desktop shortcut.
+- Mac preview: AERS-Simple-1.12-Mac-One-App.zip. Move AERS Simple.app to Applications.
+  The Mac bundle is unsigned, unnotarized and still needs native Mac acceptance.
+
+Install 1.12 once to connect earlier Simple versions whose updater was disabled.
+After that, startup checks the signed update feed. Save before updating. Failed
+updates restore the old program and keep saved events, keys and pending exports.
+
+## Save and send results
+
+Save event keeps an encrypted .aersflash backup in AERS Simple/Saves in your home
+folder. It also protects a pending match-results export. With the organizer's
+results connection configured, sending retries automatically while AERS runs and
+at next startup. A successful receipt confirms delivery. Offline files stay saved.
+
+Drive receives Event Name.csv. Repeating the same saved export reuses its file;
+different saved result snapshots retain separate files with that event name.
+Practice/demo results stay local. Windows can reuse an existing Full connection
+for the same Windows user; other computers need the organizer's connection once.
+
+The source repository is private. These installer/update files are public. The
+app contains no release-signing private key or publishing credential. Windows
+setup is not Authenticode-signed; signed update manifests authenticate updates
+separately.
