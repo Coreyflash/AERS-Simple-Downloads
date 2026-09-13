@@ -3,18 +3,24 @@
 Run your tournament with brackets, table view, puller management, injuries, byes,
 and Undo last match.
 
-## Install Simple 1.12
+## Install Simple 1.13
 
 Open the [latest release](https://github.com/Coreyflash/AERS-Simple-Downloads/releases/latest)
 and choose an installer under Assets:
 
-- Windows: AERS-Simple-1.12-Setup.exe. Run setup, then use the desktop shortcut.
-- Mac preview: AERS-Simple-1.12-Mac-One-App.zip. Move AERS Simple.app to Applications.
+- Windows: AERS-Simple-1.13-Setup.exe. Run setup, then use the desktop shortcut.
+- Mac preview: AERS-Simple-1.13-Mac-One-App.zip. Move AERS Simple.app to Applications.
   The Mac bundle is unsigned, unnotarized and still needs native Mac acceptance.
 
-Install 1.12 once to connect earlier Simple versions whose updater was disabled.
+Install this version once to connect Simple versions earlier than 1.12 whose updater was disabled.
 After that, startup checks the signed update feed. Save before updating. Failed
 updates restore the old program and keep saved events, keys and pending exports.
+
+## Select class weights
+
+In Setup, tap any of the preset weights, or add a custom weight from 0 to 999
+with an optional +. Select Right, Left or Both, choose a table, then add the
+classes together. The selection stays ready for the next division.
 
 ## Save and send results
 
