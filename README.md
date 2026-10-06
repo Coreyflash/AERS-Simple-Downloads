@@ -3,14 +3,14 @@
 Run your tournament with brackets, table view, puller management, injuries, byes,
 and Undo last match.
 
-## Install Simple 1.15.1
+## Install Simple 1.15.32
 
 Open the [latest release](https://github.com/Coreyflash/AERS-Simple-Downloads/releases/latest)
 and choose an installer under Assets:
 
-- Windows: AERS-Simple-1.15.1-Setup.exe. Run setup, then use the desktop shortcut.
-- Mac preview: AERS-Simple-1.15.1-Mac-One-App.zip. Move AERS Simple.app to Applications.
-  The Mac bundle is unsigned, unnotarized and still needs native Mac acceptance.
+- Windows: AERS-Simple-1.15.32-Setup.exe. Run setup, then use the desktop shortcut.
+- Mac: use AERS-Simple-1.15.32-Mac-Guided-Setup.pkg, or move the app from the Mac ZIP or disk image to Applications.
+  Supports Intel and Apple Silicon on macOS 13.5 or newer. The app and installer are unsigned and unnotarized; follow the included install guide.
 
 Install this version once to connect Simple versions earlier than 1.12 whose updater was disabled.
 After that, the app prepares signed updates in the background. Save and close
@@ -18,6 +18,10 @@ your event, then reopen to install a ready update. Failed
 updates restore the old program and keep saved events, keys and pending exports.
 
 ## Select class weights
+
+Choose Custom class… to enter a name such as First Timers. Its displayed name stays in the event; the CSV CLASS column exports it as `open`.
+
+Use Add class in Brackets to create and register another class after existing brackets start. Existing class entries, brackets and results remain protected. Re-randomize this class can be used repeatedly before its first match decision. A recorded winner, BYE or injury locks it, including after Undo or reopening the event.
 
 In Setup, tap any of the preset weights, or add a custom weight from 0 to 999
 with an optional +. Select Right, Left or Both, choose a table, then add the
