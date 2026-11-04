@@ -3,19 +3,37 @@
 Run your tournament with brackets, table view, puller management, injuries, byes,
 and Undo last match.
 
-## Install Simple 1.15.32
+## Install Simple 2.0.32
 
 Open the [latest release](https://github.com/Coreyflash/AERS-Simple-Downloads/releases/latest)
 and choose an installer under Assets:
 
-- Windows: AERS-Simple-1.15.32-Setup.exe. Run setup, then use the desktop shortcut.
-- Mac: use AERS-Simple-1.15.32-Mac-Guided-Setup.pkg, or move the app from the Mac ZIP or disk image to Applications.
+- Windows: AERS-Simple-2.0.32-Setup.exe. Run setup, then use the desktop shortcut.
+- Mac: use AERS-Simple-2.0.32-Mac-Guided-Setup.pkg, or move the app from the Mac ZIP or disk image to Applications.
   Supports Intel and Apple Silicon on macOS 13.5 or newer. The app and installer are unsigned and unnotarized; follow the included install guide.
 
 Install this version once to connect Simple versions earlier than 1.12 whose updater was disabled.
 After that, the app prepares signed updates in the background. Save and close
 your event, then reopen to install a ready update. Failed
 updates restore the old program and keep saved events, keys and pending exports.
+
+## Import pullers into existing classes
+
+Build the classes in Setup first. In Pullers, choose **Import pullers to classes**
+and download the template. Enter each person's full first and last name on one
+row and put **X** under every class they enter. Keep the class headings unchanged
+and save as CSV.
+
+Choose the completed CSV, review all database name matches and explicitly confirm
+new pullers. Review each class rating, then confirm the import. Missing class
+ratings are clearly marked as the default 1500. Import cannot create unknown
+classes, duplicate registered people, override tiers, or change scored classes.
+Import and automatic saves stay local; results require an explicit submission.
+
+Done stays below the welcome banner so Dismiss is accessible. On Windows,
+relaunching reuses the matching healthy service even if a previous window's close
+notification was lost. X keeps the service available; use **Done → Save & close
+for now** for normal shutdown.
 
 ## Select class weights
 
@@ -29,15 +47,17 @@ classes together. The selection stays ready for the next division.
 
 ## Save and send results
 
-Save event keeps an encrypted .aersflash backup in AERS Simple/Saves in your home
-folder. It also protects a pending match-results export. With the organizer's
-results connection configured, sending retries automatically while AERS runs and
-at next startup. A successful receipt confirms delivery. Offline files stay saved.
+Save now confirms an encrypted local event backup. For unfinished work, use
+Done → Save & close for now. When the event is complete, review Done → Finish &
+send results to submit it. Only that explicit action or Send now queues delivery;
+typing, importing pullers, autosave, refresh and closing stay local. Approved
+queued results retry while AERS runs and at the next startup. A successful receipt
+confirms delivery; offline files remain saved.
 
 Drive receives Event Name.csv. Repeating the same saved export reuses its file;
 different saved result snapshots retain separate files with that event name.
-Practice/demo results stay local. Windows can reuse an existing Full connection
-for the same Windows user; other computers need the organizer's connection once.
+Practice/demo results stay local. Published installers include the protected
+ratings and results connections and verify them before release.
 
 The source repository is private. These installer/update files are public. The
 app contains no release-signing private key or publishing credential. Windows
@@ -46,4 +66,5 @@ separately.
 
 Version 1.15.1: faster opening with signed updates prepared in the background, plus the navy/red/blue AERS website palette and clearer controls.
 
-Events now save automatically. Use My events to reopen an event or find its files. Select Done before leaving to save and queue current results.
+Events save automatically. Use Saved events to reopen an event or find its files.
+Done lets you save and close unfinished work or explicitly finish and send results.
