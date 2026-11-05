@@ -3,19 +3,32 @@
 Run your tournament with brackets, table view, puller management, injuries, byes,
 and Undo last match.
 
-## Install Simple 2.0.32
+## Install Simple 2.0.33
 
 Open the [latest release](https://github.com/Coreyflash/AERS-Simple-Downloads/releases/latest)
 and choose an installer under Assets:
 
-- Windows: AERS-Simple-2.0.32-Setup.exe. Run setup, then use the desktop shortcut.
-- Mac: use AERS-Simple-2.0.32-Mac-Guided-Setup.pkg, or move the app from the Mac ZIP or disk image to Applications.
+- Windows: AERS-Simple-2.0.33-Setup.exe. Run setup, then use the desktop shortcut.
+- Mac: use AERS-Simple-2.0.33-Mac-Guided-Setup.pkg, or move the app from the Mac ZIP or disk image to Applications.
   Supports Intel and Apple Silicon on macOS 13.5 or newer. The app and installer are unsigned and unnotarized; follow the included install guide.
 
 Install this version once to connect Simple versions earlier than 1.12 whose updater was disabled.
 After that, the app prepares signed updates in the background. Save and close
 your event, then reopen to install a ready update. Failed
 updates restore the old program and keep saved events, keys and pending exports.
+
+## More room to run the event
+
+The compact header groups Setup, Pullers, Run event, Completed and Results on
+the left, with Second bracketer and Save now on the right. Event health opens
+beside Edit pullers when needed. In Bracket view, use **Table** to jump to the
+active class at another table without changing its queue or results.
+
+**Pop out bracket** appears in Bracket view; **Pop out live tables** appears in
+Live tables. Expand bracket gives the bracket more room; Escape returns.
+Windows launches maximize the new Simple window and reset its browser zoom
+without changing Windows display scaling. A window left in the background
+does not receive startup keyboard input.
 
 ## Import pullers into existing classes
 
