@@ -3,36 +3,39 @@
 Run your tournament with brackets, table view, puller management, injuries, byes,
 and Undo last match.
 
-## Install Simple 2.0.33
+## Install Simple 2.0.46
 
 Open the [latest release](https://github.com/Coreyflash/AERS-Simple-Downloads/releases/latest)
 and choose an installer under Assets:
 
-- Windows: AERS-Simple-2.0.33-Setup.exe. Run setup, then use the desktop shortcut.
-- Mac: use AERS-Simple-2.0.33-Mac-Guided-Setup.pkg, or move the app from the Mac ZIP or disk image to Applications.
+- Windows: AERS-Simple-2.0.46-Setup.exe. Run setup, then use the desktop shortcut.
+- Mac: use AERS-Simple-2.0.46-Mac-Guided-Setup.pkg, or move the app from the Mac ZIP or disk image to Applications.
   Supports Intel and Apple Silicon on macOS 13.5 or newer. The app and installer are unsigned and unnotarized; follow the included install guide.
 
 Install this version once to connect Simple versions earlier than 1.12 whose updater was disabled.
-After that, the app prepares signed updates in the background. Save and close
-your event, then reopen to install a ready update. Failed
+After that, the app checks for signed updates before opening and applies an
+available update when no event window is active. Approved queued results retry
+automatically; other completed results require your review before submission. Failed
 updates restore the old program and keep saved events, keys and pending exports.
 
 ## More room to run the event
 
-The compact header groups Setup, Pullers, Run event, Completed and Results on
-the left, with Second bracketer and Save now on the right. Event health opens
-beside Edit pullers when needed. In Bracket view, use **Table** to jump to the
-active class at another table without changing its queue or results.
+Setup, Registration, Run event and Results use compact controls. Results combines
+completed classes, placements and match history. Settings brings event tools,
+display preferences and recovery together on one screen.
 
-**Pop out bracket** appears in Bracket view; **Pop out live tables** appears in
-Live tables. Expand bracket gives the bracket more room; Escape returns.
-Windows launches maximize the new Simple window and reset its browser zoom
-without changing Windows display scaling. A window left in the background
-does not receive startup keyboard input.
+Bracket view keeps winner controls steady while you pan or zoom the diagram.
+Use - / +, Fit bracket, 100%, or Jump to current. Opening a class focuses its
+first ready match; after a winner is selected, a hidden next match comes into view.
+Expand bracket adds room, and Pop out bracket opens a separate window.
+
+Youth classes can use age ranges instead of weight groups. Saved setups preserve
+those ranges, classes, tiers and table assignments while starting with no entrants
+or results. Saved events resumes the existing tournament.
 
 ## Import pullers into existing classes
 
-Build the classes in Setup first. In Pullers, choose **Import pullers to classes**
+Build the classes in Setup first. In Registration, choose **Import pullers to classes**
 and download the template. Enter each person's full first and last name on one
 row and put **X** under every class they enter. Keep the class headings unchanged
 and save as CSV.
@@ -76,8 +79,6 @@ The source repository is private. These installer/update files are public. The
 app contains no release-signing private key or publishing credential. Windows
 setup is not Authenticode-signed; signed update manifests authenticate updates
 separately.
-
-Version 1.15.1: faster opening with signed updates prepared in the background, plus the navy/red/blue AERS website palette and clearer controls.
 
 Events save automatically. Use Saved events to reopen an event or find its files.
 Done lets you save and close unfinished work or explicitly finish and send results.
