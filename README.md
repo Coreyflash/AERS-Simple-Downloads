@@ -3,13 +3,13 @@
 Run your tournament with brackets, table view, puller management, injuries, byes,
 and Undo last match.
 
-## Install Simple 2.0.46
+## Install Simple 2.0.49
 
 Open the [latest release](https://github.com/Coreyflash/AERS-Simple-Downloads/releases/latest)
 and choose an installer under Assets:
 
-- Windows: AERS-Simple-2.0.46-Setup.exe. Run setup, then use the desktop shortcut.
-- Mac: use AERS-Simple-2.0.46-Mac-Guided-Setup.pkg, or move the app from the Mac ZIP or disk image to Applications.
+- Windows: AERS-Simple-2.0.49-Setup.exe. Run setup, then use the desktop shortcut.
+- Mac: use AERS-Simple-2.0.49-Mac-Guided-Setup.pkg, or move the app from the Mac ZIP or disk image to Applications.
   Supports Intel and Apple Silicon on macOS 13.5 or newer. The app and installer are unsigned and unnotarized; follow the included install guide.
 
 Install this version once to connect Simple versions earlier than 1.12 whose updater was disabled.
